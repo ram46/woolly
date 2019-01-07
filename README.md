@@ -13,7 +13,6 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br>
 
-
 ### `npm run build`
 Builds the app for development to the `build` folder.<br>
 
@@ -24,7 +23,15 @@ Builds the app for production to the `build` folder.<br>
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-#### Reference 
-React + Webpack + Babel 7
+### `npm run lint`
+Lints the files.<br>
 
+### linter setup
+`npm install eslint --save-dev`
+./node_modules/eslint/bin/eslint.js --init
+
+#### Reference 
+- React + Webpack + Babel 7
 https://www.valentinog.com/blog/react-webpack-babel/ 
+
+
