@@ -12,9 +12,6 @@ deploy:
   script: bash docker/docker_push
   on:
     branch: master
-# script:
-# - npm run test
-# - npm run lint
 env:
   matrix:
   - secure: Ejw4+p7byQgxCaOxRk33Exh1HtnqFjpAIckWa3/nV9EFhlMgJEsay7WRScu4tMRPmhvYpYLU+d1LA+jYxyIBqfniGufkEJ6vQx05jOffANBMzt+7w5ekfvDCOTvwJu7gJAgMFAMSQIbVd7Jmsgg3lo3hukbJFYFoOQ3qlKPCMsmCd8m/sUeKXiqKgGQrZ0+q3TczvG9nogNUTcKdof2fDXV/PcmkdLEbr3dsQIbYaN4URFXnI71p7vw2mRR1yGDBVeBjro2kYWrJ1ChvPSs7erLSYZFoXNEunDB47JmHZmwf9PL5+oFgJ5Kjx4Z3eGdqMqg2vM3gjWt3NGTKoz1PlkPIMCAbrf9QEACc103/dd0GYCByAS1Tc30ee3KBxOEmAM+fCFF1e85JYTUH6fHguNEN0dnoExpMADXcr8cECLF+3dU58orIGO05Oy92TZ/v9ubPU8jZWDAj/CeuBernBnkhxUqefH6074P3sQsRCxIo2WaFx80ecTGzrRNVWCDQwHqMWIM0Y85FrlRw8KFNHq2QJNeQI6YUOoyK7Cc+0iYZHEW1skH8jKbFibQ3WuPyPPMLoQL/IlqEwBmnoo/K3vM/6q3+860Rg/p2S0hHN9lLU9wUEqNoOKMqbmizHwYC7L9Le4bgD9XuCt/74gaYwKtIq+iJHGgxM3RokqNklJk=
