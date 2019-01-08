@@ -9,7 +9,7 @@ before_install:
 - docker build -t cybercuffs/woolly .
 deploy:
   provider: script
-  script: bash docker/docker_push
+  script: echo "npm test temporarily disabled"; bash docker/docker_push
   on:
     branch: master
 env:
