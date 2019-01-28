@@ -6,7 +6,7 @@ before_install:
 - docker run -d -p 80:8080 --name  go-helloworld cybercuffs/woolly:woo
 - docker exec -it go-helloworld /bin/sh -c "cd tests; go test"
 script:
-- docker ps | grep -q go-helloworld
+- docker ps | grep -q woo
 deploy:
   provider: script
   script: bash deploy.sh
