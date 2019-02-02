@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import HomeGrid from "./HomeGrid.jsx";
 import ReactDOM from "react-dom";
 
 function Welcome(props) {
@@ -15,10 +16,11 @@ class App extends Component {
   }
   render() {
     return (
-        <div>
-            <Welcome name="Sara" />
-            <Welcome name="Cahal" />
-            <Welcome name="Edite" />
+      <div>
+        <HomeGrid />
+        <Welcome name="Sara" />
+        <Welcome name="Cahal" />
+        <Welcome name="Edite" />
       </div>
     );
   }
